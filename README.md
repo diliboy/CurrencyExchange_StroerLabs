@@ -44,6 +44,17 @@ It averages the rates from both sources and returns them in a structured JSON fo
 
 ---
 
+## Testing
+- Unit tests are included for the following components:
+
+--ExchangeRateService – core logic including API querying, averaging, and caching
+
+--APIClientService
+
+--ExchangeRateController – REST layer input/output
+
+---
+
 ## Design Rationale
 - API Abstraction Layer: Each API client is separated via its own service class to encapsulate their unique formats.
 - Rate Averaging: Rates are averaged only if both APIs return valid data. Missing rates are skipped and logged if and API is not returned any rate.
