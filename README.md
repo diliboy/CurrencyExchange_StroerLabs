@@ -47,9 +47,9 @@ It averages the rates from both sources and returns them in a structured JSON fo
 ## Testing
 - Unit tests are included for the following components:
 
-  -ExchangeRateService – core logic including API querying, averaging, and caching
-  -APIClientService
-  -ExchangeRateController – REST layer input/output
+  - ExchangeRateService – core logic including API querying, averaging, and caching
+  - APIClientService
+  - ExchangeRateController – REST layer input/output
 
 ---
 
